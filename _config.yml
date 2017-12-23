@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Pluto 
+subtitle: 개발자를 위한 방송
 description:
-author: John Doe
+author: Pluto Union
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://studiopluto.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
