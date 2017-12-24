@@ -4,16 +4,16 @@
 
 # Site
 title: Pluto 
-subtitle: 개발자를 위한 방송
-description:
-author: Pluto Union
-language:
+subtitle: 개발자를 위한 전문 방송
+description: 개발자를 위한 다양한 방송을 합니다. 업계소식, 개발문화, 코드리뷰, 코드해설, 강의, 스타트업, 아재 개그 등등 유투브로 방송합니다.
+author: Pluto Studio
+language: 
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://studiopluto.github.io
-root: /home/
+root: /home
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -72,11 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: alpha-dust
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:studiopluto/home.git
+  repo: https://github.com/studiopluto/home.git
   branch: gh-pages
