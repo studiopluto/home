@@ -1,10 +1,8 @@
 # Menus
 menu:
-  Home: .
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  방송안내: about
+  지난방송: archives
+  방송요청: https://github.com/studiopluto/home/issues/new
 
 # Customize
 customize:
@@ -34,14 +32,14 @@ customize:
         # rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
-# Widgets
+# Widgets 은 오른쪽 영역 나온다.
 widgets:
     - recent_posts
-    - category
-    - archive
-    - tag
+    # - category
+    # - archive
+    # - tag
     - tagcloud
-    - links
+    #- links
 
 # Search
 search:
@@ -54,7 +52,7 @@ comment:
     disqus:  # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
-    facebook: # enter true to enable
+    facebook: true # enter true to enable
     isso: # enter the domain name of your own comment isso server eg. comments.example.com
     changyan: # please fill in `appid` and `conf` to enable
         appid:
@@ -82,7 +80,7 @@ share: default # options: jiathis, bdshare, addtoany, default
 plugins:
     lightgallery: true # options: true, false
     justifiedgallery: true # options: true, false
-    google_analytics: # enter the tracking ID for your Google Analytics
+    google_analytics: UA-111581427-1 # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
     mathjax: false # options: true, false
@@ -94,5 +92,5 @@ miscellaneous:
         fb_admins:
         twitter_id:
         google_plus:
-    links:
-        Hexo: http://hexo.io
+    # links:
+    #     Hexo: http://hexo.io
