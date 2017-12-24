@@ -17,7 +17,7 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: css/images/pluto.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: Pluto Stuido
+        author: Pluto Studio
         author_title: 개발자를 위한 방송을 합니다.
         location: Seoul, Korea
         follow: https://www.youtube.com/channel/UC8JVpZGSvoIwO6usKUYItHA
