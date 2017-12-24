@@ -355,6 +355,7 @@ code {
   -ms-transition: 0.2s ease;
   transition: 0.2s ease;
   color: #565a5f;
+  font-weight: 400;
 }
 #header a:hover {
   color: #38b7ea;
