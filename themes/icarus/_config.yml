@@ -1,10 +1,8 @@
 # Menus
 menu:
-  Home: .
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  방송 주제 요청: https://github.com/studiopluto/home/issues/new
+  지난 방송: https://www.youtube.com/channel/UC8JVpZGSvoIwO6usKUYItHA
+  라이브: live
 
 # Customize
 customize:
