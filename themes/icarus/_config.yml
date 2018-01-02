@@ -22,7 +22,7 @@ customize:
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: images/pluto.png # path to favicon
+    favicon: css/images/favicon.ico # path to favicon
     social_links:
         github: https://github.com/studiopluto/
         slack: https://join.slack.com/t/plutostudio/shared_invite/enQtMjkxODYzNjAwOTE5LTJiOTU5ZTg4OTk1ZDQxMTZmZWFmNDk3ZGQ5MzgxZmJmMTQ5N2U0N2JkNzI2NjIwMjUwN2YzMTcwMzViOGFlMmY
