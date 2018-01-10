@@ -160,11 +160,11 @@ ga('send', 'pageview');
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                2
+                3
                 <span>포스트</span>
             </div>
             <div class="article-info-block">
-                1
+                3
                 <span>태그</span>
             </div>
         </div>
@@ -195,6 +195,142 @@ ga('send', 'pageview');
 
             
             <section id="main">
+    <article id="post-2018-01-10-night" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/home/2018/01/10/2018-01-10-night/">야밤에 코딩 나이트! 시험방송 시작합니다.</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/home/2018/01/10/2018-01-10-night/">
+            <time datetime="2018-01-10T03:56:11.000Z" itemprop="datePublished">2018-01-10</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/home/tags/ch-night/">ch_night</a>, <a class="tag-link" href="/home/tags/코딩나이트/">코딩나이트</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="코딩-나이트-방송-공지"><a href="#코딩-나이트-방송-공지" class="headerlink" title="코딩 나이트 방송 공지"></a>코딩 나이트 방송 공지</h1><p>1월 10일 오늘 밤 11시 30분 채널 나이트 시험방송을 시작합니다.<br>야밤에 라이브로 코딩하고 수다도 떨고, 리뷰도 하고, 고민도 같이 나누고..<br>등등 이런 것들을 목표로 하는 방송인데요.<br>매일 할 수 있을지 없을지 가늠하기 위해서 일단 시험방송을 시작해봅니다. </p>
+<p>방송 전후의 시청 의견은 #ch_night 슬랙 채널로 오시면 되고요.<br>방송 중에는 유튜브 실시간 댓글로 의견 주시면 됩니다.<br>채널 나이트는 딱 1시간만 방송합니다.<br>컨디션 여하에 따라 방송시간은 더 단축될 수도 있습니다. </p>
+<h2 id="오늘의-목표"><a href="#오늘의-목표" class="headerlink" title="오늘의 목표"></a>오늘의 목표</h2><ul>
+<li>코딩 나이트 정말 꾸준히 할수 있을까?</li>
+<li>요구사항 정리하기 </li>
+<li>브랜치 룰 정하기 </li>
+<li>협업 룰 정하기</li>
+<li>이슈 룰 정하기</li>
+</ul>
+<h2 id="레파지토리"><a href="#레파지토리" class="headerlink" title="레파지토리"></a>레파지토리</h2><p><a href="https://github.com/studiopluto/plupolly" target="_blank" rel="noopener">https://github.com/studiopluto/plupolly</a></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://studiopluto.github.io/home/2018/01/10/2018-01-10-night/" data-id="cjc8mr9o400063h0xbr26t21e" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://studiopluto.github.io/home/2018/01/10/2018-01-10-night/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://studiopluto.github.io/home/2018/01/10/2018-01-10-night/">0</span>&nbsp;댓글</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-2018-01-05" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -238,7 +374,7 @@ ga('send', 'pageview');
 <p>금요일에 뵙겠습니다. </p>
 <h2 id="방송-주제"><a href="#방송-주제" class="headerlink" title="방송 주제"></a>방송 주제</h2><ol>
 <li>새해 복 많이 받으세요! 새해 인사 겸, 올해 세운 목표는? </li>
-<li>고민 상담: 깃헙 이슈에서 <a href="https://github.com/ecleya" target="_blank" rel="noopener">신청받습니다</a> 댓글로 주세요!</li>
+<li>고민 상담: 깃헙 이슈에서 <a href="https://github.com/studiopluto/home/issues/20" target="_blank" rel="noopener">신청받습니다</a>. 댓글로 주세요!</li>
 <li>기술 토크: 리모트 워크는 문화인가? 제도인가?</li>
 </ol>
 <p>방송주제는 늘 상황에 따라 바뀔수 있습니다. </p>
@@ -247,7 +383,7 @@ ga('send', 'pageview');
 <li><a href="https://github.com/studiopluto/home/issues/20" target="_blank" rel="noopener">깃헙 이슈</a> - 방송 주제와 관련된 이야기를 함께 토론하실 수 있습니다.</li>
 <li><a href="https://join.slack.com/t/plutostudio/shared_invite/enQtMjkxODYzNjAwOTE5LTJiOTU5ZTg4OTk1ZDQxMTZmZWFmNDk3ZGQ5MzgxZmJmMTQ5N2U0N2JkNzI2NjIwMjUwN2YzMTcwMzViOGFlMmY" target="_blank" rel="noopener">슬랙 채널</a> - 현재 방송에 대한 이야기를 나눌수 있는 채널과 함께 게임하는 채널이 준비되어 있습니다.</li>
 </ul>
-<p><strong>출연</strong><br><a href="https://github.com/miconblog" target="_blank" rel="noopener">불꽃남자</a>, <a href="https://github.com/outsideris" target="_blank" rel="noopener">아웃사이더</a>, <a href="https://github.com/J2P" target="_blank" rel="noopener">쌍피</a>, <a href="https://github.com/asbubam" target="_blank" rel="noopener">법사</a>, <a href="https://github.com/rotoshine" target="_blank" rel="noopener">로토</a>, <a href="https://github.com/pineoc" target="_blank" rel="noopener">피노</a>, <a href="https://github.com/ecleya" target="_blank" rel="noopener">후얌얌</a>, <a href="https://github.com/ecleya" target="_blank" rel="noopener">너굴</a><br>이번엔 좀 많아요. :)</p>
+<p><strong>출연</strong><br><a href="https://github.com/miconblog" target="_blank" rel="noopener">불꽃남자</a>, <a href="https://github.com/outsideris" target="_blank" rel="noopener">아웃사이더</a>, <a href="https://github.com/J2P" target="_blank" rel="noopener">쌍피</a>, <a href="https://github.com/asbubam" target="_blank" rel="noopener">법사</a>, <a href="https://github.com/rotoshine" target="_blank" rel="noopener">로토</a>, <a href="https://github.com/pineoc" target="_blank" rel="noopener">피노</a>, <a href="https://github.com/ecleya" target="_blank" rel="noopener">후얌얌</a>, <a href="https://github.com/raccoonyy" target="_blank" rel="noopener">너굴</a><br>이번엔 좀 많아요. :)</p>
 <h2 id="후원-및-협찬"><a href="#후원-및-협찬" class="headerlink" title="후원 및 협찬"></a>후원 및 협찬</h2><p><a href="https://www.leadme.today/" target="_blank" rel="noopener">LeadMe</a>를 만들고 있는 <a href="https://www.facebook.com/RAIZEGLS/" target="_blank" rel="noopener">RAIZE GLS</a>에서 촬영장비와 공간을 제공해주셨습니다. </p>
 <p>문의는 아래 메일로 주세요!<br><a href="mailto:pluto.tv.studio@gmail.com" target="_blank" rel="noopener">pluto.tv.studio@gmail.com</a></p>
 
@@ -260,7 +396,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://studiopluto.github.io/home/2018/01/02/2018-01-05/" data-id="cjbyhtft60004f40xry0oszi5" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+    <a data-url="https://studiopluto.github.io/home/2018/01/02/2018-01-05/" data-id="cjc8mr9o100043h0xz7ewt9rp" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -395,7 +531,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://studiopluto.github.io/home/2017/12/24/2017-12-28/" data-id="cjbyhtft40002f40xzk26o4zr" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+    <a data-url="https://studiopluto.github.io/home/2017/12/24/2017-12-28/" data-id="cjc8mr9nz00023h0xniddvw12" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -487,6 +623,15 @@ ga('send', 'pageview');
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
+                            <p class="item-title"><a href="/home/2018/01/10/2018-01-10-night/" class="title">야밤에 코딩 나이트! 시험방송 시작합니다.</a></p>
+                            <p class="item-date"><time datetime="2018-01-10T03:56:11.000Z" itemprop="datePublished">2018-01-10</time></p>
+                        </div>
+                    </li>
+                
+                    <li class="no-thumbnail">
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
                             <p class="item-title"><a href="/home/2018/01/02/2018-01-05/" class="title">두 번째 시험방송은 오프라인에서 진행합니다.</a></p>
                             <p class="item-date"><time datetime="2018-01-02T03:34:24.000Z" itemprop="datePublished">2018-01-02</time></p>
                         </div>
@@ -510,7 +655,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">태그 클라우드</h3>
         <div class="widget tagcloud">
-            <a href="/home/tags/ch-ajae/" style="font-size: 10px;">ch_ajae</a>
+            <a href="/home/tags/ch-ajae/" style="font-size: 20px;">ch_ajae</a> <a href="/home/tags/ch-night/" style="font-size: 10px;">ch_night</a> <a href="/home/tags/코딩나이트/" style="font-size: 10px;">코딩나이트</a>
         </div>
     </div>
 
